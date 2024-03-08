@@ -1,0 +1,174 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+span {
+  margin-left: 47px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+.logo {
+  background-color: #e6e6e6;
+  padding: 26px;
+  margin-top: -43px;
+  border-radius: 1px;
+  margin-left: -8px;
+  width: 90%;
+}
+.logo-picture {
+  height: 200px;
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  border-radius: 50%;
+  border: solid;
+  border-width: 5px;
+  box-shadow: 1px 10px 8px white;
+}
+.introduction-text {
+  font-family: "Quicksand", sans-serif;
+  margin-top: 300px;
+  text-align: center;
+  color: black;
+}
+.programming-role {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  color: black;
+}
+.service-title {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 200px;
+}
+.box1 {
+  border: solid;
+  border-radius: 30px;
+  width: 250px;
+  height: 340px;
+  margin-left: 50px;
+  background-color: #313169;
+  border: 2px solid transparent;
+  transition: border-color 0.9s;
+}
+.box1:active {
+  border-color: black;
+  box-shadow: 0 0 30px black;
+}
+.box1-title {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+.box1-text {
+  font-family: "Quicksand", sans-serif;
+}
+.box2 {
+  border: solid;
+  border-radius: 30px;
+  width: 250px;
+  height: 340px;
+  margin-left: 1px;
+  background-color: #313169;
+  border: 2px solid transparent;
+  transition: border-color 0.9s;
+  margin-top: 100px;
+}
+.box2:active {
+  border-color: black;
+  box-shadow: 0 0 30px black;
+}
+.box2-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+.box2-text {
+  font-family: "Quicksand", sans-serif;
+}
+.skill-title {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 500px;
+}
+.skills {
+  border: solid;
+  padding-top: 10px;
+  margin-top: 500px;
+  border-radius: 10px;
+  background-color: #32329c;
+  border: 2px solid transparent;
+  transition: border-color 0.9s;
+}
+.skills:active {
+  border-color: black;
+  box-shadow: 0 0 30px black;
+}
+.skill-title {
+  margin-top: -70px;
+}
+.html-logo {
+  height: 70px;
+  margin-top: 10px;
+}
+.css-logo {
+  height: 50px;
+  margin-left: 150px;
+  position: absolute;
+  top: 1565px;
+}
+.js-logo {
+  height: 60px;
+  margin-left: 245px;
+  position: absolute;
+  top: 1560px;
+}
+.html-text {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 13px;
+}
+.css-text {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: 157px;
+  margin-top: -37px;
+}
+.js-text {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-left: 240px;
+  margin-top: -35px;
+}
+.contact-title {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+.username {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 10px 8px black;
+  border: solid black;
+  margin-left: 30px;
+}
+.message {
+  padding: 20px;
+  height: 100px;
+  border-radius: 5px;
+  border: solid black;
+  box-shadow: 1px 10px 8px black;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.send-message {
+  background-color: #6bed6b;
+  border: solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
